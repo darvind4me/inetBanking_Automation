@@ -1,0 +1,10 @@
+com\inetBanking\pageClasses\NewCustomerPage.class
+com\inetBanking\testCases\TC_NewCustomerTest.class
+com\inetBanking\pageClasses\HomePage.class
+com\inetBanking\utlities\ExtentReport.class
+com\inetBanking\utlities\ReadConfig.class
+com\inetBanking\utlities\ExcelHandlingTst.class
+com\inetBanking\testCases\BaseClass.class
+com\inetBanking\testCases\TC_LoginTest.class
+com\inetBanking\pageClasses\LoginPage.class
+com\inetBanking\utlities\ExtentReportPractice.class
