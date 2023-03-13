@@ -1,17 +1,10 @@
 package com.inetBanking.testCases;
 
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
-import org.testng.AssertJUnit;
-
 import java.io.IOException;
 
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
-
 import com.inetBanking.pageClasses.HomePage;
 import com.inetBanking.pageClasses.LoginPage;
 import com.inetBanking.utlities.ExcelHandlingTst;

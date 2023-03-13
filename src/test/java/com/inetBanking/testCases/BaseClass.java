@@ -3,8 +3,6 @@ package com.inetBanking.testCases;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.commons.math3.random.RandomGenerator;
-import org.apache.commons.math3.random.RandomGeneratorFactory;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.NoAlertPresentException;

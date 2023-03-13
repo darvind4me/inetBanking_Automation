@@ -42,6 +42,16 @@ public class TC_NewCustomerTest extends BaseClass {
 		lp.setUsername(userName);
 		lp.setPassword(password);
 		lp.clickLoginButton();
+			if(isAllertPreset()==true) {
+				if(driver.switchTo().alert().getText().equalsIgnoreCase("User or Password is not valid") == true) {
+					logger.info("Login Failed for - " + userName);
+					Assert.assertTrue(false);
+				}
+			}
+			else{
+				logger.info("Login pass for - " + userName);
+			}
+			
 		
 		NewCustomerPage ncp = new NewCustomerPage(driver);
 		
@@ -70,6 +80,7 @@ public class TC_NewCustomerTest extends BaseClass {
 		}else {
 		if(driver.getPageSource().contains("Customer Registered Successfully!!!")) {
 			Assert.assertTrue(true);
+			logger.info("New Customer registred" );
 		}
 		else {
 			Assert.assertTrue(false);

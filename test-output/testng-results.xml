@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6154" started-at="2023-03-06T10:01:07 CST" finished-at="2023-03-06T10:01:13 CST">
+  <suite name="Default suite" duration-ms="14272" started-at="2023-03-07T12:46:39 CST" finished-at="2023-03-07T12:46:53 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6154" started-at="2023-03-06T10:01:07 CST" finished-at="2023-03-06T10:01:13 CST">
+    <test name="Default test" duration-ms="14272" started-at="2023-03-07T12:46:39 CST" finished-at="2023-03-07T12:46:53 CST">
       <class name="com.inetBanking.testCases.TC_NewCustomerTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.inetBanking.testCases.TC_NewCustomerTest@33f88ab]" name="setup" is-config="true" duration-ms="2284" started-at="2023-03-06T10:01:07 CST" finished-at="2023-03-06T10:01:09 CST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.inetBanking.testCases.TC_NewCustomerTest@33f88ab]" name="setup" is-config="true" duration-ms="1605" started-at="2023-03-07T12:46:39 CST" finished-at="2023-03-07T12:46:41 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_NewCustomerTest@33f88ab]" name="addNewCustomer" duration-ms="3839" started-at="2023-03-06T10:01:09 CST" finished-at="2023-03-06T10:01:13 CST">
+        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_NewCustomerTest@33f88ab]" name="addNewCustomer" duration-ms="12645" started-at="2023-03-07T12:46:41 CST" finished-at="2023-03-07T12:46:53 CST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [true] but found [false]]]>
@@ -22,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertTrue(Assert.java:43)
 at org.testng.Assert.assertTrue(Assert.java:53)
-at com.inetBanking.testCases.TC_NewCustomerTest.addNewCustomer(TC_NewCustomerTest.java:66)
+at com.inetBanking.testCases.TC_NewCustomerTest.addNewCustomer(TC_NewCustomerTest.java:52)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -57,7 +57,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_NewCustomerTest@33f88ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-06T10:01:13 CST" finished-at="2023-03-06T10:01:13 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetBanking.testCases.TC_NewCustomerTest@33f88ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-07T12:46:53 CST" finished-at="2023-03-07T12:46:53 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
